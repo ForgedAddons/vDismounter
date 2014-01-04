@@ -1,6 +1,6 @@
 local addon, ns = ...
 
-ns.RegisterEvent("UI_ERROR_MESSAGE", function(self, event, ...)
+ns.RegisterEvent("UI_ERROR_MESSAGE", function(event, ...)
 	local err = ...;
 	local adf = GetCVarBool("autoDismountFlying");
 	if (err == SPELL_FAILED_NOT_MOUNTED or err == ERR_TAXIPLAYERALREADYMOUNTED) then
