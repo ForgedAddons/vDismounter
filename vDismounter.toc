@@ -1,9 +1,11 @@
 ## Interface: 50400
-## Version: 50400.1
+## Version: 50400.2
 ## Title: |cffc7c7cfv|rDismounter
 ## Notes: Auto dismount
 ## Author: Drauer | github/ForgedAddons
 ## DefaultState: Enabled
 ## LoadOnDemand: 0
+
+externals\events.lua
 
 main.lua
